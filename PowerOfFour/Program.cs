@@ -14,13 +14,8 @@ public class Solution
         writer = new StreamWriter(Console.OpenStandardOutput());
 
         var n = ReadInt();
-        var i = 1;
-        while (i < n)
-        {
-            i = i << 2;
-        }
-
-        writer.WriteLine(i == n);
+        int l = (int)Math.Log2(n);
+        writer.WriteLine(n == 1 << l && l % 2 == 0);
 
         reader.Close();
         writer.Close();
