@@ -8,6 +8,7 @@ public class Solution
     private static TextReader reader;
     private static TextWriter writer;
 
+
     public static void Main(string[] args)
     {
         reader = new StreamReader(Console.OpenStandardInput());
@@ -16,59 +17,68 @@ public class Solution
         var n = ReadInt();
         var numbers = ReadList();
 
+        var result = new List<int>(numbers);
 
         int i = 0;
-        var result = new List<List<int>>();
-        bool foundZero = false;
-        int distance = 0;
-        int count = 0;
-        int previousIndex = 0;
+        while (result[i] != 0)
+        {
+            result[i] = -1;
+            i++;
+        }
+        
+        int counter = 0;
+
         while (i < n)
         {
-            if (numbers[i] == 0)
+            if (result[i] == 0)
             {
-                var part = new List<int>();
-                part.Add(numbers[i]);
-                i++;
-                while (i < n && numbers[i]!= 0)
-                {
-                    part.Add(numbers[i]);
-                    i++;
-                }
-                if (i == n)
-                {
-                    result.Add(part);
-                    break;
-                }
-                part.Add(numbers[i]);
-                result.Add(part);
+                counter = 0;
             }
+            else
+            {
+                counter++;
+            }
+            result[i] = counter;
+            i++;
+        }
+        
+        i--;
+        while (i >= 0)
+        {
+            if (result[i] == 0)
+            {
+                counter = 0;
+            }
+            else
+            {
+                counter++;
+            }
+            if (counter < result[i])
+            {
+                result[i] = counter;
+            }
+            if (result[i] == -1)
+            {
+                result[i] = counter;
+            }
+            i--;
         }
 
-        int j;
         foreach (var item in result)
         {
-            i = 0;
-            j = item.Count - 1;
-            while (i<j)
-            {
-                item[i] = i;
-                item[j] = i;
-                i++;
-                j--;
-            }
-            Console.WriteLine(String.Join("", item));
+            writer.Write(item + " ");
         }
-
 
         reader.Close();
         writer.Close();
     }
 
+
     private static int ReadInt()
     {
         return int.Parse(reader.ReadLine());
     }
+
 
     private static List<int> ReadList()
     {
