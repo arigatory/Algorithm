@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListForm", "ListForm\ListFo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtraLetter", "ExtraLetter\ExtraLetter.csproj", "{509B7FB1-9165-479A-8BD9-0B106368FB52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NearestZero", "NearestZero\NearestZero.csproj", "{D931B499-65B5-45A3-9B19-C3CE3F611035}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NearestZero", "NearestZero\NearestZero.csproj", "{D931B499-65B5-45A3-9B19-C3CE3F611035}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SleightOfHand", "SleightOfHand\SleightOfHand.csproj", "{DE20A7CF-30E9-477A-8AD3-0E16907E4CC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +123,10 @@ Global
 		{D931B499-65B5-45A3-9B19-C3CE3F611035}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D931B499-65B5-45A3-9B19-C3CE3F611035}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D931B499-65B5-45A3-9B19-C3CE3F611035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE20A7CF-30E9-477A-8AD3-0E16907E4CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE20A7CF-30E9-477A-8AD3-0E16907E4CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE20A7CF-30E9-477A-8AD3-0E16907E4CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE20A7CF-30E9-477A-8AD3-0E16907E4CC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -143,6 +149,7 @@ Global
 		{70962C0C-4EC6-42A3-B9DD-2B0C7BE17F93} = {10F62EE8-2FFB-43C5-9DB4-3C880446DDCD}
 		{509B7FB1-9165-479A-8BD9-0B106368FB52} = {10F62EE8-2FFB-43C5-9DB4-3C880446DDCD}
 		{D931B499-65B5-45A3-9B19-C3CE3F611035} = {10F62EE8-2FFB-43C5-9DB4-3C880446DDCD}
+		{DE20A7CF-30E9-477A-8AD3-0E16907E4CC6} = {10F62EE8-2FFB-43C5-9DB4-3C880446DDCD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {773B7222-A349-44FF-924A-7D35138CB84A}
