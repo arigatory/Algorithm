@@ -5,34 +5,44 @@ using System.Linq;
 
 public class Solution
 {
-    private static TextReader reader;
-    private static TextWriter writer;
+    private static TextReader _reader;
+    private static TextWriter _writer;
 
     public static void Main(string[] args)
     {
-        reader = new StreamReader(Console.OpenStandardInput());
-        writer = new StreamWriter(Console.OpenStandardOutput());
+        InitialiseStreams();
 
         var n = ReadInt();
         var numbers = ReadList();
-        
+
         for (var i = 0; i < n; i++)
         {
-            writer.Write("{0} ", numbers[i]);
+            _writer.Write("{0} ", numbers[i]);
         }
 
-        reader.Close();
-        writer.Close();
+        CloseStreams();
+    }
+
+    private static void CloseStreams()
+    {
+        _reader.Close();
+        _writer.Close();
+    }
+
+    private static void InitialiseStreams()
+    {
+        _reader = new StreamReader(Console.OpenStandardInput());
+        _writer = new StreamWriter(Console.OpenStandardOutput());
     }
 
     private static int ReadInt()
     {
-        return int.Parse(reader.ReadLine());
+        return int.Parse(_reader.ReadLine());
     }
 
     private static List<int> ReadList()
     {
-        return reader.ReadLine()
+        return _reader.ReadLine()
             .Split(new[] { ' ', '\t', }, StringSplitOptions.RemoveEmptyEntries)
             .Select(int.Parse)
             .ToList();
