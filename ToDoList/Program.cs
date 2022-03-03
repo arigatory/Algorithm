@@ -1,19 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 
-public class Node<TValue>
-{
-    public TValue Value { get; private set; }
-    public Node<TValue> Next { get; set; }
+//public class Node<TValue>
+//{
+//    public TValue Value { get; private set; }
+//    public Node<TValue> Next { get; set; }
 
-    public Node(TValue value, Node<TValue> next)
-    {
-        Value = value;
-        Next = next;
-    }
-}
+//    public Node(TValue value, Node<TValue> next)
+//    {
+//        Value = value;
+//        Next = next;
+//    }
+//}
 
 public class Solution
 {
@@ -65,7 +63,7 @@ public class Solution
         }
     }
 
-    
+
     private static void CloseStreams()
     {
         _reader.Close();
@@ -76,19 +74,6 @@ public class Solution
     {
         _reader = new StreamReader(Console.OpenStandardInput());
         _writer = new StreamWriter(Console.OpenStandardOutput());
-    }
-
-    private static int ReadInt()
-    {
-        return int.Parse(_reader.ReadLine());
-    }
-
-    private static List<int> ReadList()
-    {
-        return _reader.ReadLine()
-            .Split(new[] { ' ', '\t', }, StringSplitOptions.RemoveEmptyEntries)
-            .Select(int.Parse)
-            .ToList();
     }
 }
 
