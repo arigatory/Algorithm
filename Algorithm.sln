@@ -47,19 +47,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SleightOfHand", "SleightOfH
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2", "2", "{BFFDD597-EF16-4F3A-9620-6BA4CC38F684}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList", "ToDoList\ToDoList.csproj", "{69A43444-0350-460E-8410-606A05540175}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B_ToDoList", "ToDoList\B_ToDoList.csproj", "{69A43444-0350-460E-8410-606A05540175}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnlovedBusiness", "UnlovedBusiness\UnlovedBusiness.csproj", "{5ACBE19B-1817-4B3C-A750-898CB2744D28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_UnlovedBusiness", "UnlovedBusiness\C_UnlovedBusiness.csproj", "{5ACBE19B-1817-4B3C-A750-898CB2744D28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaringMother", "CaringMother\CaringMother.csproj", "{0987A0DA-B870-4DB1-8949-B1377C4E7D6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D_CaringMother", "CaringMother\D_CaringMother.csproj", "{0987A0DA-B870-4DB1-8949-B1377C4E7D6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItsTheOtherWayAround", "ItsTheOtherWayAround\ItsTheOtherWayAround.csproj", "{BD193C67-F119-48D4-9BA0-747A87D80CCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E_ItsTheOtherWayAround", "ItsTheOtherWayAround\E_ItsTheOtherWayAround.csproj", "{BD193C67-F119-48D4-9BA0-747A87D80CCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackMax", "StackMax\StackMax.csproj", "{859D3341-0313-4448-B48D-E3EC7E07A157}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F_StackMax", "StackMax\F_StackMax.csproj", "{859D3341-0313-4448-B48D-E3EC7E07A157}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackMaxEffective", "StackMaxEffective\StackMaxEffective.csproj", "{418D0D45-57A4-4008-BCBC-057451188793}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "G_StackMaxEffective", "StackMaxEffective\G_StackMaxEffective.csproj", "{418D0D45-57A4-4008-BCBC-057451188793}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BracketSequence", "BracketSequence\BracketSequence.csproj", "{976E072D-3D1F-4157-ADD6-C1E6114D8D56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H_BracketSequence", "BracketSequence\H_BracketSequence.csproj", "{976E072D-3D1F-4157-ADD6-C1E6114D8D56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I_LimitedQueue", "I_LimitedQueue\I_LimitedQueue.csproj", "{7534AC1E-B171-4A84-B38E-1F18E7794500}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{976E072D-3D1F-4157-ADD6-C1E6114D8D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{976E072D-3D1F-4157-ADD6-C1E6114D8D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{976E072D-3D1F-4157-ADD6-C1E6114D8D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7534AC1E-B171-4A84-B38E-1F18E7794500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7534AC1E-B171-4A84-B38E-1F18E7794500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7534AC1E-B171-4A84-B38E-1F18E7794500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7534AC1E-B171-4A84-B38E-1F18E7794500}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -201,6 +207,7 @@ Global
 		{859D3341-0313-4448-B48D-E3EC7E07A157} = {BFFDD597-EF16-4F3A-9620-6BA4CC38F684}
 		{418D0D45-57A4-4008-BCBC-057451188793} = {BFFDD597-EF16-4F3A-9620-6BA4CC38F684}
 		{976E072D-3D1F-4157-ADD6-C1E6114D8D56} = {BFFDD597-EF16-4F3A-9620-6BA4CC38F684}
+		{7534AC1E-B171-4A84-B38E-1F18E7794500} = {BFFDD597-EF16-4F3A-9620-6BA4CC38F684}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {773B7222-A349-44FF-924A-7D35138CB84A}
