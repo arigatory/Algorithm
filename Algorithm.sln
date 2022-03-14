@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32126.315
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm", "Algorithm\Algorithm.csproj", "{DCAA819A-D195-4E52-B9FC-AEF33D0E65B1}"
 EndProject
@@ -69,9 +69,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J_ListQueue", "J_ListQueue\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J_ListQueue.Tests", "J_ListQueue.Tests\J_ListQueue.Tests.csproj", "{E0D3C2D2-5884-4856-BB41-71730F323B5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K_RecursiveFibonacciNumbers", "K_RecursiveFibonacciNumbers\K_RecursiveFibonacciNumbers.csproj", "{AFA48F4A-54C3-450E-B730-B7C80BC3FF86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K_RecursiveFibonacciNumbers", "K_RecursiveFibonacciNumbers\K_RecursiveFibonacciNumbers.csproj", "{AFA48F4A-54C3-450E-B730-B7C80BC3FF86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L_FibonacciModulo", "L_FibonacciModulo\L_FibonacciModulo.csproj", "{C335BB03-1459-4185-AC12-358E7A850174}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L_FibonacciModulo", "L_FibonacciModulo\L_FibonacciModulo.csproj", "{C335BB03-1459-4185-AC12-358E7A850174}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3", "3", "{B046B15A-FA51-4042-9F78-115275DA816A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L_TwoBicycles", "L_TwoBicycles\L_TwoBicycles.csproj", "{624DD89D-CAEA-49CF-9936-1F84975E82C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +211,10 @@ Global
 		{C335BB03-1459-4185-AC12-358E7A850174}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C335BB03-1459-4185-AC12-358E7A850174}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C335BB03-1459-4185-AC12-358E7A850174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624DD89D-CAEA-49CF-9936-1F84975E82C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624DD89D-CAEA-49CF-9936-1F84975E82C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624DD89D-CAEA-49CF-9936-1F84975E82C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624DD89D-CAEA-49CF-9936-1F84975E82C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -243,6 +251,7 @@ Global
 		{E0D3C2D2-5884-4856-BB41-71730F323B5C} = {BFFDD597-EF16-4F3A-9620-6BA4CC38F684}
 		{AFA48F4A-54C3-450E-B730-B7C80BC3FF86} = {BFFDD597-EF16-4F3A-9620-6BA4CC38F684}
 		{C335BB03-1459-4185-AC12-358E7A850174} = {BFFDD597-EF16-4F3A-9620-6BA4CC38F684}
+		{624DD89D-CAEA-49CF-9936-1F84975E82C5} = {B046B15A-FA51-4042-9F78-115275DA816A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {773B7222-A349-44FF-924A-7D35138CB84A}
