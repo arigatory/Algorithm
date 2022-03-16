@@ -79,7 +79,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L_TwoBicycles", "L_TwoBicyc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A_ParenthesesGenerator", "A_ParenthesesGenerator\A_ParenthesesGenerator.csproj", "{289FF37F-F855-4D5C-A151-0342EBCB192F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_Combinations", "B_Combinations\B_Combinations.csproj", "{770FF099-51F5-4C74-8790-7AB3CF80304A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B_Combinations", "B_Combinations\B_Combinations.csproj", "{770FF099-51F5-4C74-8790-7AB3CF80304A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J_Bubble", "J_Bubble\J_Bubble.csproj", "{B6D519A9-E0E4-421D-960A-6359C9DFE457}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -227,6 +229,10 @@ Global
 		{770FF099-51F5-4C74-8790-7AB3CF80304A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{770FF099-51F5-4C74-8790-7AB3CF80304A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{770FF099-51F5-4C74-8790-7AB3CF80304A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D519A9-E0E4-421D-960A-6359C9DFE457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D519A9-E0E4-421D-960A-6359C9DFE457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D519A9-E0E4-421D-960A-6359C9DFE457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D519A9-E0E4-421D-960A-6359C9DFE457}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -266,6 +272,7 @@ Global
 		{624DD89D-CAEA-49CF-9936-1F84975E82C5} = {B046B15A-FA51-4042-9F78-115275DA816A}
 		{289FF37F-F855-4D5C-A151-0342EBCB192F} = {B046B15A-FA51-4042-9F78-115275DA816A}
 		{770FF099-51F5-4C74-8790-7AB3CF80304A} = {B046B15A-FA51-4042-9F78-115275DA816A}
+		{B6D519A9-E0E4-421D-960A-6359C9DFE457} = {B046B15A-FA51-4042-9F78-115275DA816A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {773B7222-A349-44FF-924A-7D35138CB84A}
