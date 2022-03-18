@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace J_Bubble
+namespace H_LargeNumber
 {
     public class Solution
     {
@@ -16,12 +16,16 @@ namespace J_Bubble
 
             var n = ReadInt();
             var numbers = ReadList();
+
             Sort(n, numbers);
+
+
+            _writer.WriteLine(string.Join("", numbers));
 
             CloseStreams();
         }
 
-        private static void Sort(int n, List<int> numbers)
+        private static void Sort(int n, List<string> numbers)
         {
             bool needSwap = true;
             bool sorted = true;
@@ -31,7 +35,7 @@ namespace J_Bubble
                 needSwap = false;
                 for (int i = 1; i < j; i++)
                 {
-                    if (numbers[i - 1] > numbers[i])
+                    if (NeedSwap(numbers[i - 1], numbers[i]))
                     {
                         needSwap = true;
                         sorted = false;
@@ -42,14 +46,18 @@ namespace J_Bubble
                 }
                 if (sorted)
                 {
-                    _writer.WriteLine(string.Join(" ", numbers));
                     break;
                 }
                 if (!needSwap)
                     break;
-                _writer.WriteLine(string.Join(" ", numbers));
-
             }
+        }
+
+        private static bool NeedSwap(string s1, string s2)
+        {
+            var op1 = s1 + s2;
+            var op2 = s2 + s1;
+            return op1.CompareTo(op2) > 0 ? false : true;
         }
 
         private static void CloseStreams()
@@ -69,11 +77,10 @@ namespace J_Bubble
             return int.Parse(_reader.ReadLine());
         }
 
-        private static List<int> ReadList()
+        private static List<string> ReadList()
         {
             return _reader.ReadLine()
                 .Split(new[] { ' ', '\t', }, StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
                 .ToList();
         }
     }
