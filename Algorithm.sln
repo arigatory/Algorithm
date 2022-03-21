@@ -85,6 +85,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J_Bubble", "J_Bubble\J_Bubb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H_LargeNumber", "H_LargeNumber\H_LargeNumber.csproj", "{90DF696F-08AD-4D0D-8892-B90F3955677C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_Flowerbeds", "N_Flowerbeds\N_Flowerbeds.csproj", "{A03734D7-9B3A-4E6A-963D-9FB265E9884A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -239,6 +241,10 @@ Global
 		{90DF696F-08AD-4D0D-8892-B90F3955677C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90DF696F-08AD-4D0D-8892-B90F3955677C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90DF696F-08AD-4D0D-8892-B90F3955677C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A03734D7-9B3A-4E6A-963D-9FB265E9884A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A03734D7-9B3A-4E6A-963D-9FB265E9884A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A03734D7-9B3A-4E6A-963D-9FB265E9884A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A03734D7-9B3A-4E6A-963D-9FB265E9884A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -280,6 +286,7 @@ Global
 		{770FF099-51F5-4C74-8790-7AB3CF80304A} = {B046B15A-FA51-4042-9F78-115275DA816A}
 		{B6D519A9-E0E4-421D-960A-6359C9DFE457} = {B046B15A-FA51-4042-9F78-115275DA816A}
 		{90DF696F-08AD-4D0D-8892-B90F3955677C} = {B046B15A-FA51-4042-9F78-115275DA816A}
+		{A03734D7-9B3A-4E6A-963D-9FB265E9884A} = {B046B15A-FA51-4042-9F78-115275DA816A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {773B7222-A349-44FF-924A-7D35138CB84A}
