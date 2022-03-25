@@ -95,7 +95,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K_MergeSort", "K_MergeSort\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E_BuyingHouses", "E_BuyingHouses\E_BuyingHouses.csproj", "{DEB75ACB-A802-4AFD-9211-E700D0754F71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F_TrianglePerimeter", "F_TrianglePerimeter\F_TrianglePerimeter.csproj", "{9C79D169-600E-4B96-8B79-5AE8313BA899}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F_TrianglePerimeter", "F_TrianglePerimeter\F_TrianglePerimeter.csproj", "{9C79D169-600E-4B96-8B79-5AE8313BA899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_Wardrobe", "G_Wardrobe\G_Wardrobe.csproj", "{E62B3E49-FA8B-472B-982A-0B9C1CAA32A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -275,6 +277,10 @@ Global
 		{9C79D169-600E-4B96-8B79-5AE8313BA899}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C79D169-600E-4B96-8B79-5AE8313BA899}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C79D169-600E-4B96-8B79-5AE8313BA899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E62B3E49-FA8B-472B-982A-0B9C1CAA32A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E62B3E49-FA8B-472B-982A-0B9C1CAA32A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E62B3E49-FA8B-472B-982A-0B9C1CAA32A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E62B3E49-FA8B-472B-982A-0B9C1CAA32A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -322,6 +328,7 @@ Global
 		{264F3C97-9479-4A11-8351-14CFFD829C64} = {B046B15A-FA51-4042-9F78-115275DA816A}
 		{DEB75ACB-A802-4AFD-9211-E700D0754F71} = {B046B15A-FA51-4042-9F78-115275DA816A}
 		{9C79D169-600E-4B96-8B79-5AE8313BA899} = {B046B15A-FA51-4042-9F78-115275DA816A}
+		{E62B3E49-FA8B-472B-982A-0B9C1CAA32A7} = {B046B15A-FA51-4042-9F78-115275DA816A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {773B7222-A349-44FF-924A-7D35138CB84A}
