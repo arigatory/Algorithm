@@ -18,10 +18,45 @@ namespace P_PartialSorting
             var n = ReadInt();
             var numbers = ReadList();
 
-            for (var i = 0; i < n; i++)
+            int max = 0;
+            int first = 0;
+            int count = 0;
+            int i = 0;
+            List<int> items = new List<int>();
+
+            while (i < n)
             {
-                _writer.Write("{0} ", numbers[i]);
+                items.Add(numbers[i]);
+                if (numbers[i] > max)
+                {
+                    max = numbers[i];
+                }
+                if (numbers[i] == first)
+                {
+                    first = max + 1;
+                    while (numbers[i] < max || items.Count < max + 1)
+                    {
+                        i++;
+                        if (i == n)
+                        {
+                            break;
+                        }
+                        items.Add(numbers[i]);
+                        if (numbers[i] > max)
+                        {
+                            max = numbers[i];
+                        }
+                    }
+                    count++;
+                }
+                else
+                {
+                    i++;
+                }
+
             }
+
+            _writer.WriteLine("{0} ", count);
 
             CloseStreams();
         }
