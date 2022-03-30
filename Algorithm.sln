@@ -109,7 +109,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4", "4", "{99C73CF3-0CD7-4C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D_Mugs", "D_Mugs\D_Mugs.csproj", "{B84D7484-DCDA-45F9-859A-AA8F2BDD95B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_Competition", "G_Competition\G_Competition.csproj", "{07687EED-35C9-47C0-BF4B-CC68CA17D35C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "G_Competition", "G_Competition\G_Competition.csproj", "{07687EED-35C9-47C0-BF4B-CC68CA17D35C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H_StrangeComparison", "H_StrangeComparison\H_StrangeComparison.csproj", "{6878475D-63D7-46D0-8FB2-E22097A34EA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -313,6 +315,10 @@ Global
 		{07687EED-35C9-47C0-BF4B-CC68CA17D35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07687EED-35C9-47C0-BF4B-CC68CA17D35C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07687EED-35C9-47C0-BF4B-CC68CA17D35C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6878475D-63D7-46D0-8FB2-E22097A34EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6878475D-63D7-46D0-8FB2-E22097A34EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6878475D-63D7-46D0-8FB2-E22097A34EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6878475D-63D7-46D0-8FB2-E22097A34EA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -367,6 +373,7 @@ Global
 		{8DFBECD0-30C8-4D6A-8CD0-DA9999EAD13A} = {B046B15A-FA51-4042-9F78-115275DA816A}
 		{B84D7484-DCDA-45F9-859A-AA8F2BDD95B5} = {99C73CF3-0CD7-4C9A-8F7D-3B478CA95DA7}
 		{07687EED-35C9-47C0-BF4B-CC68CA17D35C} = {99C73CF3-0CD7-4C9A-8F7D-3B478CA95DA7}
+		{6878475D-63D7-46D0-8FB2-E22097A34EA6} = {99C73CF3-0CD7-4C9A-8F7D-3B478CA95DA7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {773B7222-A349-44FF-924A-7D35138CB84A}
