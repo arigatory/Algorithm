@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace D_Mugs
+namespace G_Competition
 {
     public class Solution
     {
@@ -13,23 +13,41 @@ namespace D_Mugs
         public static void Main(string[] args)
         {
             InitialiseStreams();
-            Console.WriteLine("привет");
-            _writer.WriteLine("привет");
-            _writer.Flush();
             var n = ReadInt();
 
-            SortedSet<string> set = new SortedSet<string>();
+            int maxLength = 0;
 
-            for (int i = 0; i < n; i++)
+            if (n != 0)
             {
-                var s = _reader.ReadLine();
-                if (!set.Contains(s))
-                {
-                    _writer.WriteLine(s);
-                    set.Add(s);
-                }
+                var numbers = ReadList();
 
+                var indexSumDict = new Dictionary<int, int>();
+
+                int counter = 0;
+
+                for (int i = 1; i <= n; i++)
+                {
+                    counter += numbers[i - 1] == 0 ? -1 : 1;
+                    if (counter == 0)
+                    {
+                        maxLength = i;
+                    }
+                    else if (indexSumDict.ContainsKey(counter))
+                    {
+                        int probableMax = i - indexSumDict[counter];
+                        if (probableMax > maxLength)
+                        {
+                            maxLength = probableMax;
+                        }
+                    }
+                    else
+                    {
+                        indexSumDict.Add(counter, i);
+                    }
+                }
             }
+
+            _writer.WriteLine(maxLength);
             CloseStreams();
         }
 
