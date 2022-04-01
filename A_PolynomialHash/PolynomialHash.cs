@@ -23,7 +23,7 @@ namespace A_PolynomialHash
             CloseStreams();
         }
 
-        private static long Hash(int q, int R, string s)
+        public static long Hash(int q, int R, string s)
         {
             var n = s.Length;
             long hash = 0;
