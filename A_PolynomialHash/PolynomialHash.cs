@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 namespace A_PolynomialHash
 {
 
@@ -14,25 +12,31 @@ namespace A_PolynomialHash
         {
             InitialiseStreams();
 
-            var q = ReadInt();
-            var R = ReadInt();
+            var q = (uint)ReadUint();
+            var R = (uint)ReadUint();
             var s = _reader.ReadLine();
-            var n = s.Length;
-            var hash = 0;
 
-            for (var i = 0; i < n; i++)
-            {
-                hash *= q;
-                hash += s[i];
-                while (hash >= R)
-                {
-                    hash -= R;
-                }
-            }
+            uint hash = Hash(q, R, s);
 
             _writer.WriteLine(hash);
 
             CloseStreams();
+        }
+
+        private static uint Hash(uint q, uint R, string s)
+        {
+            var n = s.Length;
+            uint hash = 0;
+
+            for (var i = 0; i < n; i++)
+            {
+                hash *= q;
+                hash %= R;
+                hash += s[i];
+                hash %= R;
+            }
+
+            return hash;
         }
 
         private static void CloseStreams()
@@ -47,17 +51,9 @@ namespace A_PolynomialHash
             _writer = new StreamWriter(Console.OpenStandardOutput());
         }
 
-        private static int ReadInt()
+        private static uint ReadUint()
         {
-            return int.Parse(_reader.ReadLine());
-        }
-
-        private static List<int> ReadList()
-        {
-            return _reader.ReadLine()
-                .Split(new[] { ' ', '\t', }, StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
-                .ToList();
+            return uint.Parse(_reader.ReadLine());
         }
     }
 
