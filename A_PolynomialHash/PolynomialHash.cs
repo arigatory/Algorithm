@@ -12,28 +12,30 @@ namespace A_PolynomialHash
         {
             InitialiseStreams();
 
-            var q = (uint)ReadUint();
-            var R = (uint)ReadUint();
+            var a = int.Parse(_reader.ReadLine());
+            var m = int.Parse(_reader.ReadLine());
             var s = _reader.ReadLine();
 
-            uint hash = Hash(q, R, s);
+            var hash = Hash(a, m, s);
 
             _writer.WriteLine(hash);
 
             CloseStreams();
         }
 
-        private static uint Hash(uint q, uint R, string s)
+        private static long Hash(int q, int R, string s)
         {
             var n = s.Length;
-            uint hash = 0;
+            long hash = 0;
 
             for (var i = 0; i < n; i++)
             {
                 hash *= q;
-                hash %= R;
                 hash += s[i];
-                hash %= R;
+                if (hash >= R)
+                {
+                    hash %= R;
+                }
             }
 
             return hash;
@@ -49,11 +51,6 @@ namespace A_PolynomialHash
         {
             _reader = new StreamReader(Console.OpenStandardInput());
             _writer = new StreamWriter(Console.OpenStandardOutput());
-        }
-
-        private static uint ReadUint()
-        {
-            return uint.Parse(_reader.ReadLine());
         }
     }
 
