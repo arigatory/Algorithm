@@ -9,7 +9,7 @@ namespace C_PrefixHashes
     {
         private static TextReader _reader;
         private static TextWriter _writer;
-        private static int[] _powers;
+        private static long[] _powers;
         private static long[] _hashes;
 
         public static void Main(string[] args)
@@ -18,15 +18,12 @@ namespace C_PrefixHashes
 
             var a = ReadInt();
             var m = ReadInt();
-            var s = _reader.ReadLine().Trim();
+            var s = _reader.ReadLine();
             var t = ReadInt();
             int n = s.Length;
 
+            CalculateHashes(a, m, s, n);
             CalculatePowers(a, m, n);
-            if (_powers.Any(p=> p<0))
-            {
-                Console.WriteLine("NOOOO");
-            }
 
             for (var i = 0; i < t; i++)
             {
@@ -34,7 +31,7 @@ namespace C_PrefixHashes
                 var l = items[0];
                 var r = items[1];
 
-                _writer.WriteLine(Hash(m, s, l, r));
+                _writer.WriteLine(Hash(a, m, s, n, l, r));
             }
 
             CloseStreams();
@@ -42,7 +39,7 @@ namespace C_PrefixHashes
 
         private static void CalculatePowers(int a, int m, int n)
         {
-            _powers = new int[n + 1];
+            _powers = new long[n + 1];
             _powers[0] = 1;
             for (int i = 1; i < n; i++)
             {
@@ -76,36 +73,30 @@ namespace C_PrefixHashes
                 .ToList();
         }
 
-        public static long Hash(string s, int i, int j)
+        public static long Hash(int a, int m, string s, int n, int i, int j)
         {
-            long hash = 0;
-            var n = j - i;
-            int left = i;
-            for (var k = i; k < j; k++)
-            {
-                hash += Mod(s[k] * _powers[n -], m);
-            }
+            long hash = Mod(_hashes[j] - _hashes[i - 1] * _powers[j - i + 1], m);
 
             return hash;
         }
 
-        public static void CalculateHashes(int a, int m, string s)
+        public static void CalculateHashes(int a, int m, string s, int n)
         {
-            var n = s.Length;
-            _hashes = new long[n];
+            _hashes = new long[n + 1];
             long hash = 0;
+
+            _hashes[0] = 0;
 
             for (var i = 0; i < n; i++)
             {
-                hash *= a;
-                hash += s[i];
-                
-                _hashes[i] = Mod(hash,m);
+                hash = Mod(hash * a, m);
+                hash = Mod(hash + s[i], m);
+
+                _hashes[i + 1] = hash;
             }
         }
 
-        static int Mod(int k, int n)  { return ((k %= n) < 0) ? k + n : k; }
-        static long Mod(long k, int n)  { return ((k %= n) < 0) ? k + n : k; }
+        static long Mod(long k, int n) { return ((k %= n) < 0) ? k + n : k; }
     }
 }
 
