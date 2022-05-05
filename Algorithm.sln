@@ -131,7 +131,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A_Bulbs", "A_Bulbs\A_Bulbs.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E_SearchTree", "E_SearchTree\E_SearchTree.csproj", "{92733C05-7C2C-48FD-BDAC-6C6EFE7741A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I_DifferentSearchTrees", "I_DifferentSearchTrees\I_DifferentSearchTrees.csproj", "{5C64BDCE-F11B-4CBA-817E-AFA8C5901AD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "I_DifferentSearchTrees", "I_DifferentSearchTrees\I_DifferentSearchTrees.csproj", "{5C64BDCE-F11B-4CBA-817E-AFA8C5901AD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K_BringOutTheRange", "K_BringOutTheRange\K_BringOutTheRange.csproj", "{4CAF389C-B696-4DD8-BB2B-1A3E20F69208}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -375,6 +377,10 @@ Global
 		{5C64BDCE-F11B-4CBA-817E-AFA8C5901AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C64BDCE-F11B-4CBA-817E-AFA8C5901AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C64BDCE-F11B-4CBA-817E-AFA8C5901AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CAF389C-B696-4DD8-BB2B-1A3E20F69208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CAF389C-B696-4DD8-BB2B-1A3E20F69208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CAF389C-B696-4DD8-BB2B-1A3E20F69208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAF389C-B696-4DD8-BB2B-1A3E20F69208}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -438,6 +444,7 @@ Global
 		{A4E44838-C381-41EF-AB6B-6F6FD9892B2C} = {90877942-CFF0-4795-94D2-73503711EF52}
 		{92733C05-7C2C-48FD-BDAC-6C6EFE7741A0} = {90877942-CFF0-4795-94D2-73503711EF52}
 		{5C64BDCE-F11B-4CBA-817E-AFA8C5901AD1} = {90877942-CFF0-4795-94D2-73503711EF52}
+		{4CAF389C-B696-4DD8-BB2B-1A3E20F69208} = {90877942-CFF0-4795-94D2-73503711EF52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {773B7222-A349-44FF-924A-7D35138CB84A}
