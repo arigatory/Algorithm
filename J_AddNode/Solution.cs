@@ -22,7 +22,7 @@ public class Solution
             }
             else
             {
-                root.Right = new Node(key);
+                Insert(root.Right, key);
             }
         }
         return root;
