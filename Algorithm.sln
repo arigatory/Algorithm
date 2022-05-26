@@ -153,7 +153,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_DFS", "C_DFS\C_DFS.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H_TimeToGoOut", "H_TimeToGoOut\H_TimeToGoOut.csproj", "{F6B9A0F8-AE3E-427B-B4F7-DC294E12B16A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J_TopologicalSort", "J_TopologicalSort\J_TopologicalSort.csproj", "{334C2E97-42C7-4D4C-92D4-5BECF841B55F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J_TopologicalSort", "J_TopologicalSort\J_TopologicalSort.csproj", "{334C2E97-42C7-4D4C-92D4-5BECF841B55F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_ConnectivityComponents", "E_ConnectivityComponents\E_ConnectivityComponents.csproj", "{1A5EBAA4-0CB2-4D74-894C-0452827274F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -437,6 +439,10 @@ Global
 		{334C2E97-42C7-4D4C-92D4-5BECF841B55F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{334C2E97-42C7-4D4C-92D4-5BECF841B55F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{334C2E97-42C7-4D4C-92D4-5BECF841B55F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5EBAA4-0CB2-4D74-894C-0452827274F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5EBAA4-0CB2-4D74-894C-0452827274F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5EBAA4-0CB2-4D74-894C-0452827274F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5EBAA4-0CB2-4D74-894C-0452827274F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -510,6 +516,7 @@ Global
 		{526A2631-2FBA-4F61-AB09-075DA746AF6D} = {A7B47BE4-9A33-4EA3-B802-8ABE90503861}
 		{F6B9A0F8-AE3E-427B-B4F7-DC294E12B16A} = {A7B47BE4-9A33-4EA3-B802-8ABE90503861}
 		{334C2E97-42C7-4D4C-92D4-5BECF841B55F} = {A7B47BE4-9A33-4EA3-B802-8ABE90503861}
+		{1A5EBAA4-0CB2-4D74-894C-0452827274F8} = {A7B47BE4-9A33-4EA3-B802-8ABE90503861}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {773B7222-A349-44FF-924A-7D35138CB84A}
