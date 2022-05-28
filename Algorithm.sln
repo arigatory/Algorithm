@@ -159,7 +159,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E_ConnectivityComponents", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D_BFS", "D_BFS\D_BFS.csproj", "{80FE41A8-3BD6-4F53-8DF2-D5C34B0AE6E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_MaximumDistance", "G_MaximumDistance\G_MaximumDistance.csproj", "{40C438C0-55D0-417C-B9D9-9BA4B5112B88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "G_MaximumDistance", "G_MaximumDistance\G_MaximumDistance.csproj", "{40C438C0-55D0-417C-B9D9-9BA4B5112B88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K_Attractions", "K_Attractions\K_Attractions.csproj", "{C4BA726B-41E5-48E8-A602-D49DF6AFC1DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -455,6 +457,10 @@ Global
 		{40C438C0-55D0-417C-B9D9-9BA4B5112B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40C438C0-55D0-417C-B9D9-9BA4B5112B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40C438C0-55D0-417C-B9D9-9BA4B5112B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4BA726B-41E5-48E8-A602-D49DF6AFC1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4BA726B-41E5-48E8-A602-D49DF6AFC1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4BA726B-41E5-48E8-A602-D49DF6AFC1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4BA726B-41E5-48E8-A602-D49DF6AFC1DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -531,6 +537,7 @@ Global
 		{1A5EBAA4-0CB2-4D74-894C-0452827274F8} = {A7B47BE4-9A33-4EA3-B802-8ABE90503861}
 		{80FE41A8-3BD6-4F53-8DF2-D5C34B0AE6E9} = {A7B47BE4-9A33-4EA3-B802-8ABE90503861}
 		{40C438C0-55D0-417C-B9D9-9BA4B5112B88} = {A7B47BE4-9A33-4EA3-B802-8ABE90503861}
+		{C4BA726B-41E5-48E8-A602-D49DF6AFC1DA} = {A7B47BE4-9A33-4EA3-B802-8ABE90503861}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {773B7222-A349-44FF-924A-7D35138CB84A}
