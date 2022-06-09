@@ -171,7 +171,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B_Schedule", "B_Schedule\B_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_GoldRush", "C_GoldRush\C_GoldRush.csproj", "{D2DD32D7-FA2F-4016-8A0E-5EF59BDC20DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F_LadderJumping", "F_LadderJumping\F_LadderJumping.csproj", "{3AE57881-00AC-4710-86C2-5910DF66FE54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F_LadderJumping", "F_LadderJumping\F_LadderJumping.csproj", "{3AE57881-00AC-4710-86C2-5910DF66FE54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H_FlowerField", "H_FlowerField\H_FlowerField.csproj", "{1858CCA9-F6FD-4076-AE70-5D8A86D7B1D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -487,6 +489,10 @@ Global
 		{3AE57881-00AC-4710-86C2-5910DF66FE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AE57881-00AC-4710-86C2-5910DF66FE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AE57881-00AC-4710-86C2-5910DF66FE54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1858CCA9-F6FD-4076-AE70-5D8A86D7B1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1858CCA9-F6FD-4076-AE70-5D8A86D7B1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1858CCA9-F6FD-4076-AE70-5D8A86D7B1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1858CCA9-F6FD-4076-AE70-5D8A86D7B1D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -568,6 +574,7 @@ Global
 		{0E4DADB0-64BB-4F9D-9FC4-4475A7A4149F} = {DCEF895A-A943-4F6B-AFF6-6A9ED89E1C1E}
 		{D2DD32D7-FA2F-4016-8A0E-5EF59BDC20DD} = {DCEF895A-A943-4F6B-AFF6-6A9ED89E1C1E}
 		{3AE57881-00AC-4710-86C2-5910DF66FE54} = {DCEF895A-A943-4F6B-AFF6-6A9ED89E1C1E}
+		{1858CCA9-F6FD-4076-AE70-5D8A86D7B1D0} = {DCEF895A-A943-4F6B-AFF6-6A9ED89E1C1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {773B7222-A349-44FF-924A-7D35138CB84A}
