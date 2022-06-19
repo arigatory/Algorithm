@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace B_BorderControl
 {
@@ -35,8 +37,11 @@ namespace B_BorderControl
                 var temp = s1;
                 s1 = s2;
                 s2 = temp;
+                var x = n;
+                n = m;
+                m = x;
             }
-            
+
             int n = s1.Length;
             int m = s2.Length;
 
@@ -45,7 +50,7 @@ namespace B_BorderControl
                 return false;
             }
             else if (m == n)
-            {
+                {
                 int i = 0;
                 int errCount = 0;
                 while (i < m)
@@ -54,12 +59,12 @@ namespace B_BorderControl
                     {
                         errCount++;
                         if (errCount>1)
-                        {
+                    {
                             return false;
                         }
                     }
                     i++;
-                }
+                    }
                 return true;
             } else
             {
@@ -73,9 +78,13 @@ namespace B_BorderControl
                         errCount++;
                         delta++;
                         if (errCount > 1)
-                        {
+                    {
                             return false;
-                        }
+                    }
+                    else
+                    {
+                        int temp = Math.Min(dp[i & 1, j - 1], dp[(i - 1) & 1, j]);
+                        dp[i & 1, j] = Math.Min(temp + 1, dp[(i - 1) & 1, j - 1] + (s1[i - 1] == s2[j - 1] ? 0 : 1));
                     }
                     i++;
                 }
