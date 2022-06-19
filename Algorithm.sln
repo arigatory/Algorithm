@@ -185,7 +185,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B_Schedule", "7\B_Schedule\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A_Exchange", "7\A_Exchange\A_Exchange.csproj", "{F9A50CAA-4E81-4C2E-B5F1-747FFA878B83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_InsertingStrings", "8\E_InsertingStrings\E_InsertingStrings.csproj", "{2FF34924-40E9-4A26-AE9B-F86C695BB4E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E_InsertingStrings", "8\E_InsertingStrings\E_InsertingStrings.csproj", "{2FF34924-40E9-4A26-AE9B-F86C695BB4E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_BorderControl", "8\B_BorderControl\B_BorderControl.csproj", "{9F8D6EC1-F7EB-4C05-AD87-4DF3E5998FCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -525,6 +527,10 @@ Global
 		{2FF34924-40E9-4A26-AE9B-F86C695BB4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FF34924-40E9-4A26-AE9B-F86C695BB4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FF34924-40E9-4A26-AE9B-F86C695BB4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F8D6EC1-F7EB-4C05-AD87-4DF3E5998FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8D6EC1-F7EB-4C05-AD87-4DF3E5998FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8D6EC1-F7EB-4C05-AD87-4DF3E5998FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8D6EC1-F7EB-4C05-AD87-4DF3E5998FCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -612,6 +618,7 @@ Global
 		{DF6CEB41-3A04-4047-886E-B58CAC68225A} = {DCEF895A-A943-4F6B-AFF6-6A9ED89E1C1E}
 		{F9A50CAA-4E81-4C2E-B5F1-747FFA878B83} = {DCEF895A-A943-4F6B-AFF6-6A9ED89E1C1E}
 		{2FF34924-40E9-4A26-AE9B-F86C695BB4E6} = {8EFFBC41-2278-4918-98CB-D30D09AEBB54}
+		{9F8D6EC1-F7EB-4C05-AD87-4DF3E5998FCB} = {8EFFBC41-2278-4918-98CB-D30D09AEBB54}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {773B7222-A349-44FF-924A-7D35138CB84A}
