@@ -193,6 +193,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K_CompareTwoStrings", "8\K_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L_PrefixFunction", "8\L_PrefixFunction\L_PrefixFunction.csproj", "{1D1A5DDB-9EA0-42DF-B7C2-B698EF2F5166}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "G_ShiftSearch", "8\G_ShiftSearch\G_ShiftSearch.csproj", "{B3D1D8AB-F9F2-422B-A4C6-59E211BF0DFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -543,6 +545,10 @@ Global
 		{1D1A5DDB-9EA0-42DF-B7C2-B698EF2F5166}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D1A5DDB-9EA0-42DF-B7C2-B698EF2F5166}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D1A5DDB-9EA0-42DF-B7C2-B698EF2F5166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3D1D8AB-F9F2-422B-A4C6-59E211BF0DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D1D8AB-F9F2-422B-A4C6-59E211BF0DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D1D8AB-F9F2-422B-A4C6-59E211BF0DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D1D8AB-F9F2-422B-A4C6-59E211BF0DFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -633,6 +639,7 @@ Global
 		{9F8D6EC1-F7EB-4C05-AD87-4DF3E5998FCB} = {8EFFBC41-2278-4918-98CB-D30D09AEBB54}
 		{5D62F596-8E15-4EE6-AAA7-051C422CBA7C} = {8EFFBC41-2278-4918-98CB-D30D09AEBB54}
 		{1D1A5DDB-9EA0-42DF-B7C2-B698EF2F5166} = {8EFFBC41-2278-4918-98CB-D30D09AEBB54}
+		{B3D1D8AB-F9F2-422B-A4C6-59E211BF0DFC} = {8EFFBC41-2278-4918-98CB-D30D09AEBB54}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {773B7222-A349-44FF-924A-7D35138CB84A}
